@@ -47,3 +47,21 @@ Insert Into EmployeeSalary VALUES
 (1007, 'Supplier Relations', 41000),
 (1008, 'Salesman', 48000),
 (1009, 'Accountant', 42000)
+
+
+
+___________________________________________________________________________
+
+DAY _ 2 
+start learning about select, create , group by ,where ,having 
+
+___________________________________________________________________________
+day_ 3 
+
+LIMIT AND ALIASING 
+
+
+
+
+
+
