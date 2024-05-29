@@ -48,8 +48,8 @@ Insert Into EmployeeSalary VALUES
 (1008, 'Salesman', 48000),
 (1009, 'Accountant', 42000)
 
-
-
+output
+![image](https://github.com/heenarana123/database_analyst_bootcampp/assets/72182464/6c03422a-793e-4328-a644-55717bca6f62)
 ___________________________________________________________________________
 
 DAY _ 2 
@@ -59,6 +59,17 @@ ___________________________________________________________________________
 day_ 3 
 
 LIMIT AND ALIASING 
+select *from employeedemographics 
+LIMIT 4
+;
+
+SELECT
+    *
+FROM
+    employeedemographics
+ORDER BY
+    lastname
+LIMIT 3;
 
 
 
