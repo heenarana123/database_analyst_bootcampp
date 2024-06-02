@@ -30,3 +30,17 @@ Basic roles, and use the Cloud IAM service to inspect actions available to speci
 The API library, and examine its chief features
 
 b-query
+
+
+
+hese functions are low-level functions designed to be used by experts. Each of these low-level functions is paired with a high-level function that you should use instead:
+
+bq_perform_copy(): bq_table_copy().
+
+bq_perform_query(): bq_dataset_query(), bq_project_query().
+
+bq_perform_upload(): bq_table_upload().
+
+bq_perform_load(): bq_table_load().
+
+bq_perform_extract(): bq_table_save().
